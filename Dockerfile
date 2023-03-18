@@ -3,7 +3,6 @@ FROM node:18
 RUN apt update -y && apt upgrade -y
 RUN apt-get update && \
   apt-get install -y \
-  nodejs \
   ffmpeg && \
   rm -rf /var/lib/apt/lists/*
   
